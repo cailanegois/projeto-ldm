@@ -1,0 +1,169 @@
+*{padding: 0; margin:0;}
+
+body {
+    font-family: 'Inika', ' Serif';
+    font-size: 18px;
+}
+
+
+main {
+    padding-top: 100px;
+        
+}
+
+#container-menu {
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    background-color:#1E1F4D;
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+/*icone*/
+figure {
+    max-width: 319px;
+
+}
+
+figure img {
+    width: 100%;
+}
+
+#menuNav {
+    display: flex;
+    gap: 30px;
+}
+
+#menuNav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700px;
+    font-size: 1.25 em;
+}
+
+#menuNav li a:hover {
+    font-weight: bold;
+    color: #F5CB5C;
+    border-bottom: 2px solid #F5CB5C;
+    transition: 0.2s;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+
+section {
+    height:80vh; 
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#pag-inicio {
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+#div-maps {
+    width: 40em;
+    height: 20em;
+    background-color: #8f8a7d;
+    margin: 30px auto;
+}
+
+#section-lugares {
+    background-color:hsl(223, 60%, 29%, 0.85);  
+    color: #fff;
+}
+
+#lugares {
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+/*ajustar pq a div ta sobrepondo a anterior*/
+#section-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+#section-sobre article, #section-sobre li, h4 {
+    padding: 10px 0;
+    width: 50vw;
+    text-align: justify;
+    margin: auto;
+}
+
+#text-sobre, #section-colabore {
+    width: 50vw;
+    text-align: justify;
+    margin: auto; 
+}
+
+#section-colabore h3 {
+    padding: 10px 0;
+}
+
+
+button {
+    background-color: #F5CB5C;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    margin: auto;
+}
+
+#linkEmail {
+color:#1E1F4D;
+font-weight: bold;
+}
+
+
+
+/* fazer um rodape decente*/
+footer {
+    background-color: #1E1F4D;
+    padding: 5px 20px;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer .boxRodape {
+    width: 250px;
+    min-height: 150px;
+  
+}
+.boxRodape h4, .boxRodape li, .boxRodape p {
+    color: #fff;
+    width: 100%;
+}
+
+footer #navRodape li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.85em;
+}
+
